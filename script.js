@@ -185,7 +185,7 @@ let referrals=
        
        let list = document.createElement("li");
        
-       list.innerHTML = val.title+": <a href = \""+val.title+"\">Click Here</a";
+       list.innerHTML = val.title+": <a href = \""+val.link+"\">Click Here</a";
        unorderedList.appendChild(list);
      });
      
